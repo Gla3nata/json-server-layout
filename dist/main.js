@@ -1,0 +1,1 @@
+(()=>{"use strict";window.userService=new class{_users=[];get users(){return this._users}set users(s){this._users=s}logger(){console.log(this.users)}},userService.logger()})();
