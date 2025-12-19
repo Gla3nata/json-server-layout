@@ -1,5 +1,20 @@
 export class UserService {
-    _users = []
+    _users = [
+        {
+            id: 0,
+            name: "Mark",
+            email: 'otto@gmail.com',
+            children: true,
+            permissions: false
+        },
+        {
+            id: 1,
+            name: "Lev",
+            email: 'thornton@gmail.com',
+            children: false,
+            permissions: true
+        }
+    ]
 
     get users() {
         return this._users

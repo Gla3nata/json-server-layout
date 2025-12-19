@@ -1,6 +1,6 @@
-import { first } from "./modules/first";
+import { render } from "./modules/render";
 import { UserService } from "./modules/userService";
 
 window.userService = new UserService
 
-first()
+render(userService.users)
